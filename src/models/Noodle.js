@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         noodles: DataTypes.STRING,
         noodle_soup: DataTypes.STRING,
         noodle_topping: DataTypes.STRING,
+        vegatable: DataTypes.STRING
     })
     return Noodle
 }
